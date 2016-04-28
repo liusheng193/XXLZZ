@@ -1,0 +1,33 @@
+<Solution>
+  <PropertyGroup Name="XXLZZ" Version="3.10.0.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Folder Name="fonts">
+          <TTF Name="arial.ttf" />
+          <TTF Name="Marker Felt.ttf" />
+          <TTF Name="simhei.ttf" />
+          <TTF Name="Supercell-Magic_5.ttf" />
+        </Folder>
+        <Folder Name="Scene">
+          <Project Name="main_loading.csd" Type="Node" />
+          <Project Name="main_map.csd" Type="Node" />
+        </Folder>
+        <Folder Name="UI">
+          <PlistImageFolder Image="GameUI.png" PListFile="GameUI.plist" Name=".GameUI_PList.Dir">
+            <PlistImageFile Name="bg001.png" Key="bg001.png" />
+            <PlistImageFile Name="priest_01.png" Key="priest_01.png" />
+            <PlistImageFile Name="title.png" Key="title.png" />
+            <PlistImageFile Name="ui_char.png" Key="ui_char.png" />
+            <PlistImageFile Name="ui_dhk.png" Key="ui_dhk.png" />
+            <PlistImageFile Name="ui_select.png" Key="ui_select.png" />
+          </PlistImageFolder>
+          <Project Name="UI_Talk.csd" Type="Node" />
+        </Folder>
+        <Image Name="HelloWorld.png" />
+        <Image Name="loadbg.png" />
+        <Project Name="MainScene.csd" Type="Scene" />
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>

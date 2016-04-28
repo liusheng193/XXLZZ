@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dict>
+	<key>90</key>
+    <string>天</string>
+	<key>91</key>
+    <string>小时</string>
+	<key>92</key>
+    <string>分钟</string>
+	<key>93</key>
+    <string>秒</string>
+	<key>1</key>
+    <string>魂</string>
+  <key>2</key>
+    <string>攻</string>
+ 	<key>3</key>
+    <string>防</string>
+  <key>4</key>
+    <string>迅</string>
+	<key>5</key>
+    <string>隐</string>
+  <key>6</key>
+    <string>愈</string>
+	<key>7</key>
+    <string>空</string>
+  <key>8</key>
+    <string>赌</string>   
+	<key>9</key>
+    <string>献</string>
+  <key>10</key>
+    <string>坏</string>  
+    
+   <key>109</key>
+    <string>%s的技能</string>
+   <key>110</key>
+    <string>发动的技能(%d)</string>
+   <key>111</key>
+    <string>御魂名称</string>
+   <key>112</key>
+    <string>三位一体[%s]</string>
+</dict>

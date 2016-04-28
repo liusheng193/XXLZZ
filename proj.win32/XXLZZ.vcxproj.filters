@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\场景">
+      <UniqueIdentifier>{8f366591-4aba-41e2-ba8c-c68465356773}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\场景切换">
+      <UniqueIdentifier>{efdd077d-b588-49d7-b911-acf773cd1fab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\场景\加载">
+      <UniqueIdentifier>{c8c0f783-1185-46e0-8526-011a0eff7045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\脚本引擎">
+      <UniqueIdentifier>{f3e9fdb7-ea1e-47e2-80a7-d40f257bb7e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\脚本引擎\词法分析">
+      <UniqueIdentifier>{c48db776-3b04-4741-aa71-f7839d2e7c64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\脚本引擎\读取文件">
+      <UniqueIdentifier>{5c367fd5-e189-4da9-adbd-bd8ddee9b0ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\脚本引擎\动作基本">
+      <UniqueIdentifier>{21998585-70e2-4510-8ae6-f1be3dff8f79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\场景\主界面">
+      <UniqueIdentifier>{c03523de-60d9-4532-8e04-0cbe52cb968c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\场景\特效">
+      <UniqueIdentifier>{a428f245-942e-4f11-afae-523a60ad6cf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\游戏参数">
+      <UniqueIdentifier>{44cfc956-be69-400b-a2b6-7e96a3c930d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\功能">
+      <UniqueIdentifier>{ae60699d-d40d-4f41-b3cc-c8f44f65b6dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\功能\预加载">
+      <UniqueIdentifier>{e68aa114-b495-409a-8b19-078e1c1fe89b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\功能\遮罩">
+      <UniqueIdentifier>{1775a0fc-a77e-4d9e-824d-61f06866d318}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\功能\适配">
+      <UniqueIdentifier>{baa1371c-2670-47a9-a86b-37d77c9a3a43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\功能\字符操作与提醒">
+      <UniqueIdentifier>{37521a9c-40e9-4a3e-975f-bbc9bcaaf14a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\功能\设置">
+      <UniqueIdentifier>{154021c8-c946-4727-8d37-b2da47396bcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\功能\日志">
+      <UniqueIdentifier>{f2584dba-7ed3-4518-9314-a3edba5e84d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\功能\转码">
+      <UniqueIdentifier>{e56f16d9-78ce-4353-b427-318136b910ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\功能\crash">
+      <UniqueIdentifier>{2995e3f7-1874-4cc9-9c65-b98de64f794a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\场景\战斗">
+      <UniqueIdentifier>{a5a5b3aa-d945-40d8-970a-559fa8d4b331}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\cd_preload.cpp">
+      <Filter>src\功能\预加载</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\sceneManage.cpp">
+      <Filter>src\场景</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\cd_visibleRect.cpp">
+      <Filter>src\功能\适配</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\layer_mask.cpp">
+      <Filter>src\功能\遮罩</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\layer_load.cpp">
+      <Filter>src\场景切换</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Lexer.cpp">
+      <Filter>src\脚本引擎\词法分析</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TextReader.cpp">
+      <Filter>src\脚本引擎\读取文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Script.cpp">
+      <Filter>src\脚本引擎</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Action.cpp">
+      <Filter>src\脚本引擎\动作基本</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene_main.cpp">
+      <Filter>src\场景\主界面</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Effect.cpp">
+      <Filter>src\场景\特效</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Params.cpp">
+      <Filter>src\游戏参数</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ParamFile.cpp">
+      <Filter>src\游戏参数</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\scene_loading.cpp">
+      <Filter>src\场景\加载</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\cfg_config.cpp">
+      <Filter>src\场景\加载</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\utility.cpp">
+      <Filter>src\功能\字符操作与提醒</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TH_log.cpp">
+      <Filter>src\功能\日志</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TH_utility.cpp">
+      <Filter>src\功能\日志</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\File.cpp">
+      <Filter>src\脚本引擎\读取文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TH_crash.cpp">
+      <Filter>src\功能\crash</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SceneBattle.cpp">
+      <Filter>src\场景\战斗</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\cd_preload.h">
+      <Filter>src\功能\预加载</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\sceneManage.h">
+      <Filter>src\场景</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\cd_visibleRect.h">
+      <Filter>src\功能\适配</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\layer_mask.h">
+      <Filter>src\功能\遮罩</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\layer_load.h">
+      <Filter>src\场景切换</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ScriptTypes.h">
+      <Filter>src\脚本引擎</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Lexer.h">
+      <Filter>src\脚本引擎\词法分析</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TextReader.h">
+      <Filter>src\脚本引擎\读取文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Script.h">
+      <Filter>src\脚本引擎</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Action.h">
+      <Filter>src\脚本引擎\动作基本</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene_main.h">
+      <Filter>src\场景\主界面</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Config.h">
+      <Filter>src\功能\设置</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Effect.h">
+      <Filter>src\场景\特效</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Params.h">
+      <Filter>src\游戏参数</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ParamFile.h">
+      <Filter>src\游戏参数</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scene_loading.h">
+      <Filter>src\场景\加载</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\cfg_config.h">
+      <Filter>src\场景\加载</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\utility.h">
+      <Filter>src\功能\字符操作与提醒</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TH_log.h">
+      <Filter>src\功能\日志</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TH_type.h">
+      <Filter>src\功能\日志</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TH_utility.h">
+      <Filter>src\功能\日志</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\function.h">
+      <Filter>src\功能\转码</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\File.h">
+      <Filter>src\脚本引擎\读取文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TH_crash.h">
+      <Filter>src\功能\crash</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SceneBattle.h">
+      <Filter>src\场景\战斗</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Classes\TH_utility.inl">
+      <Filter>src\功能\日志</Filter>
+    </None>
+  </ItemGroup>
+</Project>

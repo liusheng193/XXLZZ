@@ -1,0 +1,35 @@
+#ifndef  _SCRIPTTYPES_H_
+#define  _SCRIPTTYPES_H_
+
+
+
+#define MAX_COMMAND		65536
+#define MAX_VALUES		100
+#define MAX_TEXTLINE	4
+//·ÖÀàÃüÁîÖ¸ÁîÂë
+enum{
+	SET_VALUE_CMD,
+	CALC_VALUE_CMD,
+	TEXT_CMD,
+	CLEAR_TEXT_CMD,
+	GOTO_CMD,
+	IF_true_CMD,		//==
+	IF_false_CMD,		//!=
+	IF_BIGGER_CMD,		//>
+	IF_SMALLER_CMD,		//<
+	MENU_INIT_CMD,		//
+	MENU_ITEM_CMD,
+	MENU_CMD,
+	EXEC_CMD,
+	LOAD_CMD,
+	UPDATE_CMD,
+	CLEAR_CMD,
+	MODE_CMD,
+	SYS_EXIT_CMD,
+	SYS_CLEAR_CMD,
+	END_CMD,
+};
+
+
+
+#endif 
